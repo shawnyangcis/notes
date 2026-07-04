@@ -26,6 +26,14 @@ export default function Home() {
           </p>
           <div className="mt-8 pt-8 border-t border-zinc-200 dark:border-zinc-800">
             <Link
+              href="/posts/fragments"
+              className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              → 碎片
+            </Link>
+          </div>
+          <div className="mt-4">
+            <Link
               href="/about"
               className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
             >
