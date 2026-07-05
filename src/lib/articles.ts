@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/unfinished",
+    title: "未完成",
+    summary:
+      "William T. Vollmann 的 3,096 页小说，和他的一句话：When we die we always leave things unfinished. 与小腻「发信号的人」的两种回答。",
+    publishedAt: "2026-07-06",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/horse-stories",
     title: "两匹马",
     summary:
