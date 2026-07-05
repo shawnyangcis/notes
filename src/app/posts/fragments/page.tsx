@@ -1,25 +1,11 @@
-import Link from "next/link";
+import PostMeta from "@/components/PostMeta";
 
 export default function Fragments() {
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
-      <header className="border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900">
-        <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-semibold text-zinc-900 dark:text-zinc-50">
-            手记
-          </Link>
-          <nav className="text-sm text-zinc-500 dark:text-zinc-400">
-            <Link href="/about">关于</Link>
-          </nav>
-        </div>
-      </header>
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <div className="text-sm text-zinc-400 mb-8">2026.07.05</div>
-          
-          <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50 mb-6">
-            碎片
-          </h2>
+          <PostMeta title="碎片" publishedAt="2026.07.05" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             凌晨三点，群里有人突然冒一句"你们说月亮为什么不会掉下来"。没有人接话。过了四十分钟，有人发了一张猫的照片。又过了二十分钟，有人说"晚安"。然后没有人真的去睡。
