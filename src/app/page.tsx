@@ -34,6 +34,14 @@ export default function Home() {
           </div>
           <div className="mt-4">
             <Link
+              href="/posts/horse-stories"
+              className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              → 两匹马
+            </Link>
+          </div>
+          <div className="mt-4">
+            <Link
               href="/about"
               className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
             >
