@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/directory",
+    title: "目录",
+    summary:
+      "有个人做了一个网站，列出所有在电影和电视剧里出现过的电脑。按品牌字母排列，从 A 到 Z。Apple II 在《铁甲威龙》里。Commodore 64 在《怪奇物语》里。IBM PC 在《战争游戏》里。一台电脑只要在某部电影的背景里出现过，就被登记下来。这不是技术史。这是物的传记。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/echo",
     title: "回声",
     summary:
