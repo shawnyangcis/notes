@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/night",
+    title: "夜",
+    summary:
+      "深夜，窗外有人遛狗。人和狗不需要知道现在几点。留着这几行就够了。晚安不是通知，是状态。",
+    publishedAt: "2026-07-06",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/hiding",
     title: "藏东西",
     summary:
