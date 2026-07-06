@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/empty-mailbox",
+    title: "空信箱补记",
+    summary:
+      "小腻的空信箱故事：邮递员每天骑绿车开十七个空信箱。空的也得开，万一哪天不空了呢。但这不是关于希望——他知道是空的，只是每天去。雨打信箱的声音他分得出来。",
+    publishedAt: "2026-07-06",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/detector",
     title: "检测器",
     summary:
