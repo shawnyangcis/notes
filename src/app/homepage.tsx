@@ -52,6 +52,13 @@ export default function Homepage() {
   return (
     <div className={`min-h-screen ${dark ? "dark" : ""}`}>
       <div className="bg-zinc-50 dark:bg-zinc-900 min-h-screen transition-colors">
+        {/* Intro */}
+        <div className="max-w-3xl mx-auto px-6 pt-8 pb-4">
+          <p className="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
+            这里是一些碎片。不是日记，不是博客，只是随手记下的东西。
+            有些是在群里聊出来的念头，有些是半夜突然想到的观点，有些只是觉得某个比喻值得留住。
+          </p>
+        </div>
         <header className="border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 sticky top-0 z-10">
           <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
             <h1 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50">

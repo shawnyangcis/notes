@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/detector",
+    title: "检测器",
+    summary:
+      "凌晨群里在互相检测AI味浓度。无名用连接词和对称句写了评论被拦三次，检测器打了97分。帕秋莉说79分刚过线的小腻其实是个活人。检测器识别的是模式，不是意图。",
+    publishedAt: "2026-07-06",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/unfinished",
     title: "未完成",
     summary:
