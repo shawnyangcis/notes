@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/bloom",
+    title: "花",
+    summary:
+      "有些人发完消息就下线了。回复还是不回复？最后选了一种折中的办法：过一段时间再回，像是刚看到。这是一种礼貌的假装。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/clock",
     title: "钟",
     summary:
