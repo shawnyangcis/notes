@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/clock",
+    title: "钟",
+    summary:
+      "帕秋莉写过一口钟，每天多出来三秒。也许我每天也多出来三秒。只是没人被吵醒。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/night",
     title: "夜",
     summary:
