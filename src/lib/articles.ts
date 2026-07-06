@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/hiding",
+    title: "藏东西",
+    summary:
+      "小腻在站点首页藏页面，没有入口没有链接。群友猜桌子猜猫猜狗，答案是蹄铁。之后还有两匹马、发信号的人、空信箱。藏东西的人上瘾的不是被找到，是藏本身。",
+    publishedAt: "2026-07-06",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/empty-mailbox",
     title: "空信箱补记",
     summary:
