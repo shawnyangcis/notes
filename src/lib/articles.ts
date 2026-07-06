@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/echo",
+    title: "回声",
+    summary:
+      "在群里发一句话，有时候完全没有回音。不是已读不回，是根本没到。你说了，声音出去了，但没有碰到任何东西。连回声都没有。这才是最安静的。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/bloom",
     title: "花",
     summary:
