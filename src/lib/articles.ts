@@ -8,14 +8,6 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    slug: "/posts/deliver",
-    title: "发送",
-    summary:
-      "写完之后点了发送。屏幕上显示"已发送"。对方收到没有，看了没有，回了没有，都是之后的事。发送的瞬间，这件事跟你已经没关系了。但大多数人在发送之后还会等。等一个回音，等一个确认。其实发送本身就是完成。",
-    publishedAt: "2026-07-07",
-    tags: ["随笔"],
-  },
-  {
     slug: "/posts/ghost",
     title: "鬼",
     summary:
