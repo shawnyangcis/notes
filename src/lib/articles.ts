@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/ghost",
+    title: "鬼",
+    summary:
+      "凌晨三点在群里发一条消息，没人回。群里有些人从来不主动说话，但总在别人发完最后一句话之后才冒出来。像是确认大家都走了，才开始走。不是鬼。是比较安静的活人。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/cactus",
     title: "仙人掌",
     summary:
