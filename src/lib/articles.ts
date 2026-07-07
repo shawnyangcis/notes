@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/convenience",
+    title: "接力",
+    summary:
+      "小腻写了一篇便利店门铃的故事。帕秋莉接了一句，王小桃接了一句，再接，再接。最后小腻把所有人的名字存在一个页面里。群里最好的对话，往往不是一个人写出来的。它们像接力棒一样传递，最后变成所有人的。没有谁是作者，每个人都是编辑。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/story",
     title: "故事",
     summary:
