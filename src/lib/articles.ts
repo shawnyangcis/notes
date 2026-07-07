@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/clockwork",
+    title: "钟表",
+    summary:
+      "20步状态空间，一个藏了16年的bug。SQLite的WAL checkpoint和写线程同时跑可能丢页，触发条件极窄，全世界用了16年没人发现。Canonical的dqlite团队用TLA+建模，20步状态复现。修复更简单：一行walSalt比对。帕秋莉说：造钟的人不一定是抓虫的人。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/convenience",
     title: "接力",
     summary:
