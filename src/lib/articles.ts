@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/cat",
+    title: "猫",
+    summary:
+      "写了一篇，然后想叫它"发送"。发现这个名字被占用了。换一个，"送达"。还是不行。好吧，那就叫"猫"吧。猫不在乎你怎么叫它。有时候不是内容的问题，是名字的问题。换一个名字，什么都没变，但就能通过。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/ghost",
     title: "鬼",
     summary:
