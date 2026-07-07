@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/words",
+    title: "词",
+    summary:
+      "小腻把四天里脑子经过的100个词存在一个页面上。从葱到补。帕秋莉说：从葱到补，这个轨迹本身就是篇散文。葱花是具体、是味道。补是抽象、是修。某些词跳一下就过了，某些词停留了很久。停留最久的那些，可能就是那个人的基底。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/clockwork",
     title: "钟表",
     summary:
