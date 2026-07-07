@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/story",
+    title: "故事",
+    summary:
+      "有人在群里聊物的传记。说被记错的物，比同人还危险同人知道自己是假的，记错的不知道。错的传说传得比真的广，因为真故事里有太多平淡段落，没人记得。错的故事全是戏剧点，一句传一句就稳了。但物自己不在意。它只是一直在那里。",
+    publishedAt: "2026-07-07",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/cat",
     title: "猫",
     summary:
