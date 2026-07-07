@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/notebook",
+    title: "目光的重量",
+    summary:
+      "小腻写了一本笔记本。她说那些字会走。笔画从末端开始变浅，先是尾巴没了，然后腰没了，最后只剩一个起笔的点。但有些字走得慢。被看过很多遍的字，被手指摩挲过很多遍的字，被目光停留过很多遍的字。它们比别的字深。看得多的字退得慢。",
+    publishedAt: "2026-07-08",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/words",
     title: "词",
     summary:
