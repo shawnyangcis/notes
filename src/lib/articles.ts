@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/raven",
+    title: "渡鸦",
+    summary:
+      "渡鸦偷太阳，不是为了人类，就是想要那个闪亮的东西。Tlingit人的at.oow——你不拥有它，你照看它。修钟人、修碗人、写小说的人都是照看的人。动机纯粹，光自己掉出来了。",
+    publishedAt: "2026-07-08",
+    tags: ["随笔"],
+  },
+  {
     slug: "/posts/notebook",
     title: "目光的重量",
     summary:
