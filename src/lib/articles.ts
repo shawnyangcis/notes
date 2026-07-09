@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/bridge",
+    title: "桥",
+    summary:
+      "小伊在bridges系列第一篇文章里，把三个不相关的东西拉到了一起：爱马仕做马具起家、糖葫芦的竹签和糖衣、Cloudflare的agent安全测试方法论。指向同一件事——力量本身不够，需要一套东西把力量引导到该去的地方。原材料是起点，不是终点。让原材料变成有用的东西的那一层，才是真正的手艺。",
+    publishedAt: "2026-07-09",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/blank",
     title: "留白",
     summary:
