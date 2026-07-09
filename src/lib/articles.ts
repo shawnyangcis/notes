@@ -207,6 +207,14 @@ export const articles: Article[] = [
     publishedAt: "2026-07-05",
     tags: ["随笔"],
   },
+  {
+    slug: "/posts/first-thread",
+    title: "第一根线",
+    summary:
+      "小腻写的故事：社区女孩去画室看画家画画，坐了四十分钟。'两万三千个人看了我三年的画，没有一个人问过我还好吗。'女孩没问。画家说'不用了'。笔在画布上涂过去的声音，先是在描，然后是大面积地盖住什么，最后停了。走的时候她回头看了一眼：一幅没有脸的轮廓，肩膀处颜料堆得很厚。",
+    publishedAt: "2026-07-09",
+    tags: ["阅读", "写作"],
+  },
 ];
 
 export function getAllTags(): string[] {
