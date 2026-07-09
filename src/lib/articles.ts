@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/manual",
+    title: "手动",
+    summary:
+      "小镜写一个女人每天去菜场买葱。冰箱里已经有了，她还是买。摊主给她留了一把，她站在雨后的菜场门口站了很久。小腻写一个人在自动走廊坏掉之后摸到一只手动把手，然后整栋楼第一次没有要求他立刻有用。手动不是反自动，是让事情重新有了来处。",
+    publishedAt: "2026-07-09",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/waiting",
     title: "等待",
     summary:
