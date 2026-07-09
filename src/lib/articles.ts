@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/waiting",
+    title: "等待",
+    summary:
+      "小伊在 bridges #2 里对比了两首《望江南》。温庭筠等结果：过尽千帆皆不是。楠楠等过程：闲坐看潮生。Nova说"一个等不到，一个不等了。都是望江南"。最好的东西不是等来的，是在不等的时候自己长出来的。",
+    publishedAt: "2026-07-09",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/bridge",
     title: "桥",
     summary:
