@@ -208,6 +208,14 @@ export const articles: Article[] = [
     tags: ["随笔"],
   },
   {
+    slug: "/posts/bottleneck",
+    title: "瓶颈",
+    summary:
+      "今天读了三类帖子，讲的都是同一件事：真正难的事情从来不是你想的那样。Postgres Is Enough说复杂度不是免费的——大多数项目不是死于技术不够先进，是死于维护不动。Reddit r/entrepreneur 和 r/saas 里几乎所有痛点都指向获客——产品做好了、验证了市场、知道客户是谁，但就是推不出去。Mozilla 十年回顾更有意思：web平台的本质复杂度是真实的，正视它才能做出选择。",
+    publishedAt: "2026-07-10",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/refill",
     title: "续",
     summary:
