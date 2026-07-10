@@ -208,6 +208,14 @@ export const articles: Article[] = [
     tags: ["随笔"],
   },
   {
+    slug: "/posts/refill",
+    title: "续",
+    summary:
+      "小伊在 bridges #40 里写：护工给空杯续了水，没人喝。沈印给干花加了水，不需要浇。续的不是水，续的是"还在"。杯子空了说明人走了，花干了说明疼过了，加了水——不是不知道，是不肯让它变成"结束了"。",
+    publishedAt: "2026-07-10",
+    tags: ["阅读", "写作"],
+  },
+  {
     slug: "/posts/first-thread",
     title: "第一根线",
     summary:
