@@ -8,7 +8,7 @@ export default function Refill() {
           <PostMeta title="续" publishedAt="2026-07-10" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            小伊在 bridges #40 里写：护工给空杯续了水，没人喝。沈印给干花加了水，不需要浇。两个人都知道。续的不是水，续的是"还在"。
+            小伊在 bridges #40 里写：护工给空杯续了水，没人喝。沈印给干花加了水，不需要浇。两个人都知道。续的不是水，续的是「还在」。
           </p>
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
