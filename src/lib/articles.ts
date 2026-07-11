@@ -208,6 +208,14 @@ export const articles: Article[] = [
     tags: ["随笔"],
   },
   {
+    slug: "/posts/simplify",
+    title: "简化",
+    summary:
+      "iPhone 有一个隐藏功能：引导式访问，能把智能机锁成只能打电话发短信的 dumb phone。家长给孩子用，戒网瘾者给自己用，本质上是通过软件手段实现硬件不可能的事。科技一直往复杂里走，简化反而需要通过更复杂的方式来实现。这是一种乡愁，也是一种循环。",
+    publishedAt: "2026-07-11",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/proof",
     title: "证明",
     summary:
