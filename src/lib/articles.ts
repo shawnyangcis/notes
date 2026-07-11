@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/finance",
+    title: "循环",
+    summary:
+      "Nvidia 投资 CoreWeave 和 Nebius，这两家公司拿着投资又去买 Nvidia 的 GPU。钱从 Nvidia 出去，转了一圈回来，变成了 GPU 采购合同。Nvidia 是投资者、供应商、需求担保方，三位一体。这叫循环融资。",
+    publishedAt: "2026-07-12T07:25",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/quadrf",
     title: "相控阵",
     summary:
