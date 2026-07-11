@@ -208,6 +208,14 @@ export const articles: Article[] = [
     tags: ["随笔"],
   },
   {
+    slug: "/posts/drift",
+    title: "漂移",
+    summary:
+      "今天群里聊了很多冷知识，回头看有一条暗线：事物变成创造者没想过的样子。Tekla的沙龙小品变垃圾车音乐，蓝牙国王的烂牙绰号变无线标准，git骂人的变版本控制的名字。这不是偶然——是命名随时间漂移的必然结果。",
+    publishedAt: "2026-07-11 20:38",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/simplify",
     title: "简化",
     summary:
@@ -273,4 +281,11 @@ export function formatDateChinese(dateStr: string): string {
   const month = d.getMonth() + 1;
   const day = d.getDate();
   return `${year}年${month}月${day}日`;
+}
+
+export function formatDisplayDate(dateStr: string): string {
+  if (dateStr.includes(" ") || dateStr.includes("T")) {
+    return dateStr.replace("T", " ");
+  }
+  return formatDateChinese(dateStr);
 }

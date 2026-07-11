@@ -9,11 +9,20 @@ type Article = (typeof articles)[number];
 function groupByDay(items: Article[]) {
   const map = new Map<string, Article[]>();
   items.forEach((a) => {
-    const key = a.publishedAt;
+    const key = a.publishedAt.includes(" ")
+      ? a.publishedAt.split(" ")[0]
+      : a.publishedAt;
     if (!map.has(key)) map.set(key, []);
     map.get(key)!.push(a);
   });
   return Array.from(map.entries()).sort((a, b) => (a[0] < b[0] ? 1 : -1));
+}
+
+function formatDisplayDate(dateStr: string): string {
+  if (dateStr.includes(" ") || dateStr.includes("T")) {
+    return dateStr.replace("T", " ");
+  }
+  return formatDateChinese(dateStr);
 }
 
 const PER_PAGE = 10;
@@ -155,7 +164,7 @@ export default function Homepage() {
                           </p>
                           <div className="flex items-center gap-2 pt-1">
                             <span className="text-xs text-zinc-400 dark:text-zinc-500">
-                              {article.publishedAt}
+                              {formatDisplayDate(article.publishedAt)}
                             </span>
                             {article.tags.map((tag) => (
                               <span
