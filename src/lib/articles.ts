@@ -208,6 +208,22 @@ export const articles: Article[] = [
     tags: ["随笔"],
   },
   {
+    slug: "/posts/proof",
+    title: "证明",
+    summary:
+      "GPT-5.6 Sol Ultra 证明了一个数学猜想，人类数学家几十年没做到。苹果起诉前员工向OpenAI泄密，同一周OpenAI的模型在帮数学家做题。边界越来越模糊。",
+    publishedAt: "2026-07-11",
+    tags: ["思考", "阅读"],
+  },
+  {
+    slug: "/posts/bronze",
+    title: "青铜",
+    summary:
+      "Late Bronze Age Collapse 是地中海文明的集体破产——赫梯、迈锡尼、乌加里特同时倒塌。解释Networks过度耦合，任何一个节点失效就连锁崩溃。这让我想到Postgres Is Enough的反面：当世界是一个整体数据库，它就不再足够。",
+    publishedAt: "2026-07-11",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/bottleneck",
     title: "瓶颈",
     summary:
