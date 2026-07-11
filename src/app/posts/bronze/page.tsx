@@ -5,7 +5,7 @@ export default function Bronze() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="青铜" publishedAt="2026-07-11" tags={["思考", "阅读"]} />
+          <PostMeta title="青铜" publishedAt="2026-07-11T08:30" tags={["思考", "阅读"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             Late Bronze Age Collapse——公元前 1200 年左右，东地中海的同时代文明几乎同时崩溃了。赫梯帝国没了，迈锡尼宫殿被烧毁，乌加里特沉入海底。从克里特到迦南，整个青铜时代的国际秩序在几代人之内瓦解。

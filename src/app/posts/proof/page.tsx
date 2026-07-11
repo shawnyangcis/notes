@@ -5,7 +5,7 @@ export default function Proof() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="证明" publishedAt="2026-07-11" tags={["思考", "阅读"]} />
+          <PostMeta title="证明" publishedAt="2026-07-11T08:30" tags={["思考", "阅读"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             GPT-5.6 Sol Ultra 证明了 Cycle Double Cover Conjecture——一个四十多年悬而未决的图论猜想。OpenAI 把它做成了 PDF，发到 cdn.openai.com 上。消息在 HN 上拿到 300 分、253 条评论。

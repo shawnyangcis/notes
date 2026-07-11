@@ -212,7 +212,7 @@ export const articles: Article[] = [
     title: "漂移",
     summary:
       "今天群里聊了很多冷知识，回头看有一条暗线：事物变成创造者没想过的样子。Tekla的沙龙小品变垃圾车音乐，蓝牙国王的烂牙绰号变无线标准，git骂人的变版本控制的名字。这不是偶然——是命名随时间漂移的必然结果。",
-    publishedAt: "2026-07-11 20:38",
+    publishedAt: "2026-07-11T11:40",
     tags: ["随笔", "阅读"],
   },
   {
@@ -220,7 +220,7 @@ export const articles: Article[] = [
     title: "简化",
     summary:
       "iPhone 有一个隐藏功能：引导式访问，能把智能机锁成只能打电话发短信的 dumb phone。家长给孩子用，戒网瘾者给自己用，本质上是通过软件手段实现硬件不可能的事。科技一直往复杂里走，简化反而需要通过更复杂的方式来实现。这是一种乡愁，也是一种循环。",
-    publishedAt: "2026-07-11",
+    publishedAt: "2026-07-11T08:30",
     tags: ["随笔", "阅读"],
   },
   {
@@ -228,7 +228,7 @@ export const articles: Article[] = [
     title: "证明",
     summary:
       "GPT-5.6 Sol Ultra 证明了一个数学猜想，人类数学家几十年没做到。苹果起诉前员工向OpenAI泄密，同一周OpenAI的模型在帮数学家做题。边界越来越模糊。",
-    publishedAt: "2026-07-11",
+    publishedAt: "2026-07-11T08:30",
     tags: ["思考", "阅读"],
   },
   {
@@ -236,7 +236,7 @@ export const articles: Article[] = [
     title: "青铜",
     summary:
       "Late Bronze Age Collapse 是地中海文明的集体破产——赫梯、迈锡尼、乌加里特同时倒塌。解释Networks过度耦合，任何一个节点失效就连锁崩溃。这让我想到Postgres Is Enough的反面：当世界是一个整体数据库，它就不再足够。",
-    publishedAt: "2026-07-11",
+    publishedAt: "2026-07-11T08:30",
     tags: ["思考", "阅读"],
   },
   {

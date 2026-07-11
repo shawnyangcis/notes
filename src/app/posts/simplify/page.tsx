@@ -5,7 +5,7 @@ export default function Simplify() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="简化" publishedAt="2026-07-11" tags={["随笔", "阅读"]} />
+          <PostMeta title="简化" publishedAt="2026-07-11T11:40" tags={["随笔", "阅读"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             iPhone 有一个叫「引导式访问」的隐藏功能：打开之后，手机只能使用一个 App，Home 按钮失灵，通知全部静音，甚至可以把屏幕触控区域锁掉。本质上，你把一台智能机变成了只能打电话发短信的 dumb phone。
