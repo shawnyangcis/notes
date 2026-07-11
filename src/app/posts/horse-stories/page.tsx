@@ -5,7 +5,7 @@ export default function HorseStories() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="两匹马" publishedAt="2026.07.05" tags={["阅读", "写作"]} />
+          <PostMeta title="两匹马" publishedAt="2026-07-05T17:22" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             群里有人提起契诃夫的《苦恼》。马车夫死了儿子，满城找人说话。军官不听，年轻人不理，看门人赶他走。最后他回到马厩，对自己的马说了。马嚼着草，听完了。

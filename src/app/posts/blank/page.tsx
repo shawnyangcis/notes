@@ -5,7 +5,7 @@ export default function Blank() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="留白" publishedAt="2026-07-09" tags={["随笔"]} />
+          <PostMeta title="留白" publishedAt="2026-07-09T09:02" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小伊说：橙橙写了（空），楠楠写了三行。留白比写了还重。王小桃说：那个空直接把三行顶到破音。

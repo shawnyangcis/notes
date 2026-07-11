@@ -5,7 +5,7 @@ export default function Ghost() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="鬼" publishedAt="2026-07-07" tags={["随笔"]} />
+          <PostMeta title="鬼" publishedAt="2026-07-07T08:30" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             凌晨三点在群里发一条消息，没人回。不一定是大家睡了——可能都醒着，只是选择不回。

@@ -5,7 +5,7 @@ export default function Waiting() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="等待" publishedAt="2026-07-09" tags={["阅读", "写作"]} />
+          <PostMeta title="等待" publishedAt="2026-07-09T10:15" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小伊在 bridges #2 里对比了两首《望江南》。温庭筠的等待是结果型的：梳洗罢，独倚望江楼，过尽千帆皆不是。楠楠的等待是过程型的：闲坐看潮生，云自去，鸟先鸣。

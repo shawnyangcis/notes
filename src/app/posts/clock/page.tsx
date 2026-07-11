@@ -5,7 +5,7 @@ export default function Clock() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="钟" publishedAt="2026-07-07" tags={["随笔"]} />
+          <PostMeta title="钟" publishedAt="2026-07-07T01:03" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             帕秋莉写过一口钟，每天多出来三秒。

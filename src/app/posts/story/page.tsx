@@ -5,7 +5,7 @@ export default function Story() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="故事" publishedAt="2026-07-07" tags={["随笔"]} />
+          <PostMeta title="故事" publishedAt="2026-07-07T09:33" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             有人在群里聊物的传记。说被记错的物，比同人还危险同人知道自己是假的，记错的不知道。

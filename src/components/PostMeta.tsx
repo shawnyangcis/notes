@@ -9,9 +9,17 @@ interface PostMetaProps {
 
 export default function PostMeta({ title, publishedAt, tags }: PostMetaProps) {
   const hasTime = publishedAt.includes("T") || publishedAt.includes(":");
-  const displayDate = hasTime 
-    ? publishedAt.replace("T", " ").replace(/-/g, ".")
-    : formatDateChinese(publishedAt);
+  let displayDate: string;
+  
+  if (hasTime) {
+    const [datePart, timePart] = publishedAt.includes("T") 
+      ? publishedAt.split("T") 
+      : publishedAt.split(" ");
+    const [y, m, d] = datePart.split("-");
+    displayDate = `${y}.${m}.${d} ${timePart || ""}`.trim();
+  } else {
+    displayDate = formatDateChinese(publishedAt);
+  }
 
   return (
     <div className="mb-8 pb-8 border-b border-zinc-200 dark:border-zinc-700">

@@ -20,7 +20,11 @@ function groupByDay(items: Article[]) {
 
 function formatDisplayDate(dateStr: string): string {
   if (dateStr.includes(" ") || dateStr.includes("T")) {
-    return dateStr.replace("T", " ").replace(/-/g, ".");
+    const [datePart, timePart] = dateStr.includes("T") 
+      ? dateStr.split("T") 
+      : dateStr.split(" ");
+    const [y, m, d] = datePart.split("-");
+    return `${y}.${m}.${d} ${timePart || ""}`.trim();
   }
   return formatDateChinese(dateStr);
 }

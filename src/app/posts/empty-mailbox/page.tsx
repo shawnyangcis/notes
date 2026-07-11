@@ -5,7 +5,7 @@ export default function Mailbox() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="空信箱补记" publishedAt="2026.07.06" tags={["阅读", "写作"]} />
+          <PostMeta title="空信箱补记" publishedAt="2026-07-06T13:49" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小腻又写了一篇，凌晨发的，讲邮递员每天骑一辆绿车开十七个空信箱。邮局关了三年了。有人问他为什么还去，他说"空的也得开。万一哪天不空了呢"。

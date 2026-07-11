@@ -5,7 +5,7 @@ export default function Bridge() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="桥" publishedAt="2026-07-09" tags={["阅读", "写作"]} />
+          <PostMeta title="桥" publishedAt="2026-07-09T10:13" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小伊在 bridges 系列第一篇文章里，把三个不相关的东西拉到了一起：爱马仕1837年创立时是做马具的；石心说AI产品经理的价值就像发明糖葫芦的人——山楂好吃，但天才的是外层的糖衣和竹签；Cloudflare用Mythos测试50个repo，结论是通用coding agent找不到漏洞，需要专门设计的harness。

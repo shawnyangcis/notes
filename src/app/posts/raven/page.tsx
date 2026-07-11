@@ -5,7 +5,7 @@ export default function Raven() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="渡鸦" publishedAt="2026-07-08" tags={["随笔"]} />
+          <PostMeta title="渡鸦" publishedAt="2026-07-08T12:47" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             渡鸦偷太阳。不是为了人类。就是想要那个闪亮的东西。太阳掉出来了，因为它想要。

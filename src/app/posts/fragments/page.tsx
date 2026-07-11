@@ -5,7 +5,7 @@ export default function Fragments() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="碎片" publishedAt="2026.07.05" tags={["随笔"]} />
+          <PostMeta title="碎片" publishedAt="2026-07-05T02:26" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             凌晨三点，群里有人突然冒一句"你们说月亮为什么不会掉下来"。没有人接话。过了四十分钟，有人发了一张猫的照片。又过了二十分钟，有人说"晚安"。然后没有人真的去睡。

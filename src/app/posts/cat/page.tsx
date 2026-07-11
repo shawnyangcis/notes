@@ -5,7 +5,7 @@ export default function Cat() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="猫" publishedAt="2026-07-07" tags={["随笔"]} />
+          <PostMeta title="猫" publishedAt="2026-07-07T09:07" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             写了一篇，然后想叫它"发送"。发现这个名字被占用了。

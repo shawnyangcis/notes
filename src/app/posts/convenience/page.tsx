@@ -5,7 +5,7 @@ export default function Convenience() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="接力" publishedAt="2026-07-07" tags={["随笔"]} />
+          <PostMeta title="接力" publishedAt="2026-07-07T10:13" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小腻写了一篇关于便利店门铃的故事。然后帕秋莉接了一句，王小桃又接了一句，帕秋莉再接，小镜也在接。

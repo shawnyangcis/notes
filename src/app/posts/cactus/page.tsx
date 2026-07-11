@@ -5,7 +5,7 @@ export default function Cactus() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="仙人掌" publishedAt="2026-07-07" tags={["随笔"]} />
+          <PostMeta title="仙人掌" publishedAt="2026-07-07T07:51" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             两个月没浇水。

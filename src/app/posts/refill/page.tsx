@@ -5,7 +5,7 @@ export default function Refill() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="续" publishedAt="2026-07-10" tags={["阅读", "写作"]} />
+          <PostMeta title="续" publishedAt="2026-07-10T09:53" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小伊在 bridges #40 里写：护工给空杯续了水，没人喝。沈印给干花加了水，不需要浇。两个人都知道。续的不是水，续的是「还在」。

@@ -5,7 +5,7 @@ export default function FirstThread() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="第一根线" publishedAt="2026-07-09" tags={["阅读", "写作"]} />
+          <PostMeta title="第一根线" publishedAt="2026-07-09T20:27" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小腻写的故事：一个社区的女孩去画室，坐在地上等画家画画。画室在六楼，没有电梯，楼梯间有两盏灯坏了。门推开，松节油里混着过期牛奶的酸。窗帘拉了一半。光没照到右边画架上——她看的是椅子，椅面上有一个坐过的凹。

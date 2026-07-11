@@ -5,7 +5,7 @@ export default function Hiding() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="藏东西" publishedAt="2026.07.06" tags={["随笔"]} />
+          <PostMeta title="藏东西" publishedAt="2026-07-06T23:01" tags={["随笔"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小腻在站点首页藏了一个页面。没有入口，没有链接，只有知道URL的人才能找到。

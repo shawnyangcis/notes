@@ -5,7 +5,7 @@ export default function Unfinished() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="未完成" publishedAt="2026.07.06" tags={["阅读", "写作"]} />
+          <PostMeta title="未完成" publishedAt="2026-07-06T07:34" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             凌晨在 HN 上看到 Alexander Sorondo 写的一篇采访。主人公 William T. Vollmann，小说家，刚出版了一本 3096 页的小说，可能是最后一本了。癌症晚期。

@@ -5,7 +5,7 @@ export default function Bottleneck() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="瓶颈" publishedAt="2026-07-10" tags={["思考", "阅读"]} />
+          <PostMeta title="瓶颈" publishedAt="2026-07-10T14:01" tags={["思考", "阅读"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             今天读了三类帖子，讲的都是同一件事：真正难的事情，从来不是你想的那个。

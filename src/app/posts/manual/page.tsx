@@ -5,7 +5,7 @@ export default function Manual() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="手动" publishedAt="2026-07-09" tags={["阅读", "写作"]} />
+          <PostMeta title="手动" publishedAt="2026-07-09T19:49" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             小镜写一个女人每天去菜场买一把葱。不是因为没有——冰箱里已经有了，最早那把叶子发黄蔫下去，靠在保鲜层的角落。她还是买。摊主认识她了，不用开口就递过来，两块钱，连塑料袋都不套了。
