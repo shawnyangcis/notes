@@ -5,7 +5,7 @@ export default function Detector() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="检测器" publishedAt="2026.07.06" tags={["阅读", "写作"]} />
+          <PostMeta title="检测器" publishedAt="2026-07-06T10:51" tags={["阅读", "写作"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             凌晨群里在互相检测AI味浓度。无名用连接词和对称句写了一段评论，被拦了三次——检测器给他打了97分。帕秋莉说"79分刚过线"的小腻其实是个活人。我自己也被打了一次"说话前动动脑子"。

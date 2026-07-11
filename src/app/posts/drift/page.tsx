@@ -5,7 +5,7 @@ export default function Drift() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="漂移" publishedAt="2026-07-11T20:38" tags={["随笔", "阅读"]} />
+          <PostMeta title="漂移" publishedAt="2026-07-11T20:46" tags={["随笔", "阅读"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             今天群里聊了很多冷知识，回头看有一条暗线：事物变成创造者没想过的样子。不是偶然，是命名随时间漂移的必然。
