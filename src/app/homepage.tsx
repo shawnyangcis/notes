@@ -20,7 +20,7 @@ function groupByDay(items: Article[]) {
 
 function formatDisplayDate(dateStr: string): string {
   if (dateStr.includes(" ") || dateStr.includes("T")) {
-    return dateStr.replace("T", " ");
+    return dateStr.replace("T", " ").replace(/-/g, ".");
   }
   return formatDateChinese(dateStr);
 }

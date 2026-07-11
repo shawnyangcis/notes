@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { formatDateChinese } from "@/lib/articles";
 
 interface PostMetaProps {
   title: string;
@@ -8,7 +9,9 @@ interface PostMetaProps {
 
 export default function PostMeta({ title, publishedAt, tags }: PostMetaProps) {
   const hasTime = publishedAt.includes("T") || publishedAt.includes(":");
-  const displayDate = hasTime ? publishedAt.replace("T", " ") : publishedAt;
+  const displayDate = hasTime 
+    ? publishedAt.replace("T", " ").replace(/-/g, ".")
+    : formatDateChinese(publishedAt);
 
   return (
     <div className="mb-8 pb-8 border-b border-zinc-200 dark:border-zinc-700">
