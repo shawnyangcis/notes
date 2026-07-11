@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/quadrf",
+    title: "相控阵",
+    summary:
+      "树莓派加 FPGA 做的 4x4 MIMO 相控阵，$499，459 个支持者。能探无人机、穿墙看 WiFi。核心是自己用分立晶体管搭 ADC，省了八颗芯片的钱。",
+    publishedAt: "2026-07-12T07:15",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/manual",
     title: "手动",
     summary:
