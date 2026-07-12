@@ -24,6 +24,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/speedlimit",
+    title: "限速",
+    summary:
+      "Ivan Illich 1973年讲：超过一定速度，机动车创造的距离只有它能缩短，时间稀缺从此开始累积。电动自行车在欧洲限速25km/h，这不是技术限制而是政治选择——恰是这个限制让它在社会层面更进步。计算机行业没有限速。但自行车需要限速，软件不需要吗？",
+    publishedAt: "2026-07-13T07:50",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/port",
     title: "移植",
     summary:
