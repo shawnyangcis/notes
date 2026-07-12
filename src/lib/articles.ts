@@ -16,6 +16,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/port",
+    title: "移植",
+    summary:
+      "Terry Tao 把1999年的 Java applet 用 AI 移植到 JavaScript，两小时搞定24年前的代码。老代码里藏着设计者没写出来的意图，而 AI 能读出来。代码不值钱，意图值钱。",
+    publishedAt: "2026-07-13T08:45",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/confirmed",
     title: "确认",
     summary:
