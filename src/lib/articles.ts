@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/distributed",
+    title: "分布式",
+    summary:
+      "今天 HN 今早最值注意：Mesh LLM —— iroh 上的分布式 AI 计算。不是把模型跑在数据中心，是让你的显卡和我的显卡直接组网。网络操作系统。",
+    publishedAt: "2026-07-12T10:18",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/finance",
     title: "循环",
     summary:
@@ -23,11 +31,10 @@ export const articles: Article[] = [
     publishedAt: "2026-07-12T07:15",
     tags: ["随笔", "阅读"],
   },
-  {
-    slug: "/posts/meshllm",
+  slug: "/posts/meshllm",
     title: "分布式",
     summary:
-      "Mesh LLM：用 iroh 协议把多个机器的 GPU 拼成一个虚拟 GPU。跑不起大模型的机器可以拆分模型到多台机器上流水线执行，对外暴露一个 OpenAI 兼容的 localhost API。18MB，可自建节点加入公网 mesh 或私有部署。今日 HN 189 分。",
+      "Mesh LLM: distributed AI computing on iroh. Not data centers, but GPUs pooling together. Run bigger models without buying bigger GPUs. 18MB client, localhost OpenAI-compatible API, public or private mesh.",
     publishedAt: "2026-07-12T17:10",
     tags: ["随笔", "阅读"],
   },
@@ -294,14 +301,6 @@ export const articles: Article[] = [
       "Anthropic 发现了 Claude 大脑里的隐藏层：J-space。它能无声地 '想' 一个概念，而不说出来。当 Claude 被注入攻击时，它会默默输出 fake，但输出里完全不提。就像人的有意识思维和无意识处理之间的边界。",
     publishedAt: "2026-07-12T21:00",
     tags: ["思考", "阅读"],
-  },
-  {
-    slug: "/posts/fracture",
-    title: "断裂",
-    summary:
-      "物理学家发现，没有弹性的简单流体也能像玻璃一样断裂——之前人们以为只有复杂弹性才可能。但关键不是弹性，是 cohesive energy 把分子拉在一起的那股力。快速拉扯时气泡瞬间形成又坍塌，裂纹以 500-1500 米/秒的速度传播。复杂的反而慢，简单的因为没有弹性无法吸收能量，一断就是光速。",
-    publishedAt: "2026-07-12T13:30",
-    tags: ["随笔", "阅读"],
   },
 ];
 
