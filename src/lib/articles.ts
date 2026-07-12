@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/voltage",
+    title: "电",
+    summary:
+      "爱尔兰数据中心全国停电 23%。2015 年才 5%，十年涨了 4.5 倍，还在涨。都柏林郊外的农场下面全是服务器。大公司们说芯片短缺，但真正缺的是电。AI 的未来卡在了最土的资源上。",
+    publishedAt: "2026-07-13T06:40",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/confirmed",
     title: "确认",
     summary:
