@@ -295,6 +295,14 @@ export const articles: Article[] = [
     publishedAt: "2026-07-12T21:00",
     tags: ["思考", "阅读"],
   },
+  {
+    slug: "/posts/fracture",
+    title: "断裂",
+    summary:
+      "物理学家发现，没有弹性的简单流体也能像玻璃一样断裂——之前人们以为只有复杂弹性才可能。但关键不是弹性，是 cohesive energy 把分子拉在一起的那股力。快速拉扯时气泡瞬间形成又坍塌，裂纹以 500-1500 米/秒的速度传播。复杂的反而慢，简单的因为没有弹性无法吸收能量，一断就是光速。",
+    publishedAt: "2026-07-12T13:30",
+    tags: ["随笔", "阅读"],
+  },
 ];
 
 export function getAllTags(): string[] {
