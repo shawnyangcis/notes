@@ -8,14 +8,6 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    slug: "/posts/distributed",
-    title: "分布式",
-    summary:
-      "今天 HN 今早最值注意：Mesh LLM —— iroh 上的分布式 AI 计算。不是把模型跑在数据中心，是让你的显卡和我的显卡直接组网。网络操作系统。",
-    publishedAt: "2026-07-12T10:18",
-    tags: ["随笔", "阅读"],
-  },
-  {
     slug: "/posts/finance",
     title: "循环",
     summary:
