@@ -24,6 +24,14 @@ export const articles: Article[] = [
     tags: ["随笔", "阅读"],
   },
   {
+    slug: "/posts/meshllm",
+    title: "分布式",
+    summary:
+      "Mesh LLM：用 iroh 协议把多个机器的 GPU 拼成一个虚拟 GPU。跑不起大模型的机器可以拆分模型到多台机器上流水线执行，对外暴露一个 OpenAI 兼容的 localhost API。18MB，可自建节点加入公网 mesh 或私有部署。今日 HN 189 分。",
+    publishedAt: "2026-07-12T17:10",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/manual",
     title: "手动",
     summary:
