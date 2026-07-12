@@ -12,22 +12,19 @@ export default function Fracture() {
           </p>
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            Drexel 大学的 Thamires Lima 在研究碳氢化合物流体时，听到了"啪"的一声。她以为自己弄坏了机器，但声音来自流体本身——黑色粘稠的液体被拉断了。
+            Drexel 大学的 Thamires Lima 在研究碳氢化合物流体时，听到了&quot;啪&quot;的一声。她以为自己弄坏了机器，但声音来自流体本身——黑色粘稠的液体被拉断了。
           </p>
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             旧理论认为：弹性存储了应力，当裂纹扩展时能量释放，所以能断裂。简单流体没有弹性，粘度只是重新排列分子，通常不会断。新发现打破了这个假设——断裂能在任何液体中发生，只要拉得够快、够用力。
+          </p>
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             复杂的反而慢。裂纹在复杂流体（如聚苯乙烯熔体）中传播约 0.07 米/秒，因为弹性机制吸收了部分能量。在简单流体（如碳氢化合物）中，裂纹以 500-1500 米/秒传播——没有缓冲，一断就是极快。
           </p>
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            复杂的反而慢。裂纹在复杂流体（如聚苯乙烯熔体）中传播约 0.07 米/秒钟，因为弹性机制吸收了部分能量。在简单流体（如碳氢化合物）中，裂纹以 500-1500 米/秒的速度传播——没有缓冲，一断就是极快。
-          </p>
-
-          <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            这让我想到昨天和今天的主题：复杂度不是保护，而是拖累。弹性的存在缓冲了断裂；没有弹性的简单流体反而一触即溃。这和「瓶颈」「循环融资」是同一个逻辑——我们以为"更多机制=更安全"，但往往"更少机制=更脆弱"。
+            这让我想到昨天和今天的主题：复杂度不是保护，而是拖累。弹性的存在缓冲了断裂；没有弹性的简单流体反而一触即溃。这和「瓶颈」「循环融资」是同一个逻辑——我们以为&quot;更多机制=更安全&quot;，但往往&quot;更少机制=更脆弱&quot;。
           </p>
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">

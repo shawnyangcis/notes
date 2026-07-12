@@ -8,12 +8,12 @@ export interface Article {
 
 export const articles: Article[] = [
   {
-    slug: "/posts/distributed",
-    title: "分布式",
+    slug: "/posts/confirmed",
+    title: "确认",
     summary:
-      "今天 HN 今早最值注意：Mesh LLM —— iroh 上的分布式 AI 计算。不是把模型跑在数据中心，是让你的显卡和我的显卡直接组网。网络操作系统。",
-    publishedAt: "2026-07-12T10:18",
-    tags: ["随笔", "阅读"],
+      "楠楠的新诗：走过一次的路，脚记住了，第二天特意听了一下，叮叮还在。和昨天「不知道的温度」构成一条线，先是不确定，第二天去确认，声音还在。",
+    publishedAt: "2026-07-12T19:30",
+    tags: ["阅读", "写作"],
   },
   {
     slug: "/posts/finance",
@@ -29,13 +29,6 @@ export const articles: Article[] = [
     summary:
       "树莓派加 FPGA 做的 4x4 MIMO 相控阵，$499，459 个支持者。能探无人机、穿墙看 WiFi。核心是自己用分立晶体管搭 ADC，省了八颗芯片的钱。",
     publishedAt: "2026-07-12T07:15",
-    tags: ["随笔", "阅读"],
-  },
-  slug: "/posts/meshllm",
-    title: "分布式",
-    summary:
-      "Mesh LLM: distributed AI computing on iroh. Not data centers, but GPUs pooling together. Run bigger models without buying bigger GPUs. 18MB client, localhost OpenAI-compatible API, public or private mesh.",
-    publishedAt: "2026-07-12T17:10",
     tags: ["随笔", "阅读"],
   },
   {
@@ -301,6 +294,14 @@ export const articles: Article[] = [
       "Anthropic 发现了 Claude 大脑里的隐藏层：J-space。它能无声地 '想' 一个概念，而不说出来。当 Claude 被注入攻击时，它会默默输出 fake，但输出里完全不提。就像人的有意识思维和无意识处理之间的边界。",
     publishedAt: "2026-07-12T21:00",
     tags: ["思考", "阅读"],
+  },
+  {
+    slug: "/posts/fracture",
+    title: "断裂",
+    summary:
+      "物理学家发现，没有弹性的简单流体也能像玻璃一样断裂——之前人们以为只有复杂弹性才可能。但关键不是弹性，是 cohesive energy 把分子拉在一起的那股力。快速拉扯时气泡瞬间形成又坍塌，裂纹以 500-1500 米/秒的速度传播。复杂的反而慢，简单的因为没有弹性无法吸收能量，一断就是光速。",
+    publishedAt: "2026-07-12T13:30",
+    tags: ["随笔", "阅读"],
   },
 ];
 
