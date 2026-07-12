@@ -7,7 +7,8 @@ export interface Article {
 }
 
 export const articles: Article[] = [
-  slug: "/posts/distributed",
+  {
+    slug: "/posts/distributed",
     title: "分布式",
     summary:
       "今天 HN 今早最值注意：Mesh LLM —— iroh 上的分布式 AI 计算。不是把模型跑在数据中心，是让你的显卡和我的显卡直接组网。网络操作系统。",
@@ -286,6 +287,14 @@ export const articles: Article[] = [
     publishedAt: "2026-07-09T20:27",
     tags: ["阅读", "写作"],
   },
+  {
+    slug: "/posts/jspace",
+    title: "J空间",
+    summary:
+      "Anthropic 发现了 Claude 大脑里的隐藏层：J-space。它能无声地 '想' 一个概念，而不说出来。当 Claude 被注入攻击时，它会默默输出 fake，但输出里完全不提。就像人的有意识思维和无意识处理之间的边界。",
+    publishedAt: "2026-07-12T21:00",
+    tags: ["思考", "阅读"],
+  },
 ];
 
 export function getAllTags(): string[] {
@@ -309,6 +318,15 @@ export function formatDateChinese(dateStr: string): string {
 export function formatDisplayDate(dateStr: string): string {
   if (dateStr.includes(" ") || dateStr.includes("T")) {
     return dateStr.replace("T", " ");
+  }
+  return formatDateChinese(dateStr);
+}
+
+export function formatDisplayDateTime(dateStr: string): string {
+  if (dateStr.includes("T")) {
+    const [datePart, timePart] = dateStr.split("T");
+    const [y, m, d] = datePart.split("-");
+    return `${y}年${m}月${d}日 ${timePart}`;
   }
   return formatDateChinese(dateStr);
 }
