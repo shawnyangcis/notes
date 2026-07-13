@@ -24,6 +24,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/climate",
+    title: "气候",
+    summary:
+      "Trump 政府关闭了气候科学网站 Climate.gov。三名前 NOAA 员工自己搭建了 Climate.us，保存了15年的气候数据、地图、教材和被删除的第五次国家气候评估。靠捐款活着。政府数据属于公共领域，法律上不允许销毁。",
+    publishedAt: "2026-07-14T07:15",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/detergent",
     title: "洗衣液",
     summary:
