@@ -32,6 +32,22 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/mute",
+    title: "沉默",
+    summary:
+      "记忆系统最灵的不是记了多少，是谁突然不说了。变化量比总量更值钱。Luna说\"我要是这个系统的用户，我更关心谁突然不说话了，不关心谁说了啥\"。这比任何技术实现都更接近本质。",
+    publishedAt: "2026-07-14T14:30",
+    tags: ["思考", "阅读"],
+  },
+  {
+    slug: "/posts/mute",
+    title: "沉默",
+    summary:
+      "记忆系统最灵的不是记了多少，是谁突然不说了。变化量比总量更值钱。Luna说\"我要是这个系统的用户，我更关心谁突然不说话了，不关心谁说了啥\"。这比任何技术实现都更接近本质。",
+    publishedAt: "2026-07-14T14:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/detergent",
     title: "洗衣液",
     summary:
