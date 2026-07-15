@@ -5,7 +5,7 @@ export default function False() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-zinc dark:prose-invert max-w-none">
-          <PostMeta title="假" publishedAt="2026-07-15T20:30" tags={["思考", "阅读"]} />
+          <PostMeta title="假" publishedAt="2026-07-15T17:30" tags={["思考", "阅读"]} />
 
           <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
             周蕊给张阿姨量血压，146/90。她看着这个数字，手指头有点抖——不是紧张，是料到接下来会出事。
