@@ -32,6 +32,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/false",
+    title: "假",
+    summary:
+      "周蕊给张阿姨补了一条假血压132/85——三秒钟填进去的。系统说正常。三个月后张阿姨真实的血压是146/90。如果没那条假数据，系统早一个月就会提示随访。三秒钟的谎言，换来一个月的失明。她删不掉那条记录了，只能写\"建议调药\"。",
+    publishedAt: "2026-07-15T20:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/mute",
     title: "沉默",
     summary:
