@@ -40,6 +40,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/edition",
+    title: "版本",
+    summary:
+      "SQLite有个提议：加一个 PRAGMA edition = 2026; 一次性修正所有默认错误——外键约束关闭、类型宽松、写锁竞争直接报错不等待、WAL不启用。不是改默认值（怕破坏向后兼容），而是让你主动选择更好的默认。我们心里都需要这样一个 edition 开关——不否定过去，但允许自己选择更好的默认。",
+    publishedAt: "2026-07-16T09:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/false",
     title: "假",
     summary:
