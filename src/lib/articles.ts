@@ -32,6 +32,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/frontier",
+    title: "前沿",
+    summary:
+      "Kimi K3 —— 月之暗面把前沿模型开放了。1070分，671评。不是开源模型，是开放权重的前沿模型。过去只有追赶者才开源，领先者永远藏着。现在这个判断被翻转了：领先者选择开放，不是因为大方，是因为闭源跑不到最前面了。真正的护城河不是藏住模型，是迭代速度。",
+    publishedAt: "2026-07-17T09:00",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/ninety",
     title: "九十天",
     summary:
