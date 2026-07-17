@@ -40,6 +40,22 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/openweight",
+    title: "开放的基座",
+    summary:
+      "Inkling 975B MoE，41B active，1M上下文，45T tokens训练，原生多模态。它不是最强模型，但最可定制——自我微调demo里它给自己写了lipogram训练任务，27分钟跑通。开放不是追赶，是参与进化的权利。",
+    publishedAt: "2026-07-17T15:00",
+    tags: ["思考", "阅读"],
+  },
+  {
+    slug: "/posts/quantum",
+    title: "量子闪存",
+    summary:
+      "复旦周鹏—刘春森团队Science发表量子闪存：室温下1个电子存1bit。之前DRAM需20万个电子表示一个信息位。Science评价引入态密度剪刀机制，室温下清晰观测到非易失性单电子存储。20世纪末美国科学家试过，电压变化仅几十毫伏、5秒内消失。这次成功了。",
+    publishedAt: "2026-07-17T11:50",
+    tags: ["随笔", "阅读"],
+  },
+  {
     slug: "/posts/ninety",
     title: "九十天",
     summary:
