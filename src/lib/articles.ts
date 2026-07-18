@@ -8,6 +8,13 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/aws-billing",
+    title: "错账",
+    summary: "AWS Cost Explorer 长期多收用户约 $17 亿美元——不是算错了，是用假的精确度算的。用户看到错误预估，做了不必要的优化操作。讽刺的是云厂商以精确计费为生，预估系统却能差出 $17 亿。SQLite 说让我主动选新版默认，AWS 说你只能信我给的数字——前者承认历史的重量，后者假装数字永远精确。",
+    publishedAt: "2026-07-18T10:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/voltage",
     title: "电",
     summary:
