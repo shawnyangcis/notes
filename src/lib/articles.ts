@@ -85,6 +85,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/speech-500kb",
+    title: "小声",
+    summary:
+      "Moonshine Micro：语音识别+合成，470KB RAM，跑在80美分的RP2350微控制器上。语音曾是云端的领地，现在能塞进任何东西。不是又快又大的AI赢了，是足够好的AI赢了。",
+    publishedAt: "2026-07-19T14:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/edition",
     title: "版本",
     summary:
