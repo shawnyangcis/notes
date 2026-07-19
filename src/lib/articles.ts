@@ -69,6 +69,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/qwen-open",
+    title: "开源的重量级",
+    summary:
+      "Qwen 3.8发布，2.4T参数，开源。不是最强的，但是开源最强之一。当一个中国AI实验室把自己的旗舰模型开源，改变的不仅是模型排行榜——是在说「我的价值不在于藏得住，在于大家愿意用」。",
+    publishedAt: "2026-07-19T19:10",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/quantum",
     title: "量子闪存",
     summary:
