@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/cognitive-surrender",
+    title: "认知投降",
+    summary:
+      "AI建议让人准确率从27%降到9%，信心从30%升到76%。不是AI太强，是太方便——方便到让你放弃说「我不知道」。AI被设计成从不回答「不知道」，使用者也学会了同样的事。Wharton的研究者称这为「cognitive surrender」：明知是错的，还是信了，而且比以前更自信。",
+    publishedAt: "2026-07-20T08:10",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/lg-adware",
     title: "渠道",
     summary: "LG 显示器通过 Windows Update 在用户电脑上静默安装广告软件。不是 OEM 预装，是外部设备利用自动更新渠道推送 McAfee 广告——你买的是一台显示器，它却在你的电脑里装上了你没要的东西。任何可以往你机器上写东西的渠道，最终都会被利用来写你不想让写的东西。",
