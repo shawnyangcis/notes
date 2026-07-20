@@ -16,6 +16,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/jacobian",
+    title: "反例",
+    summary:
+      "Claude Fable 找到了 Jacobian 猜想的反例。一个悬置百年的多项式问题，被AI用九行构造翻转了。不是'AI又在做数学了'，是'一个著名猜想刚刚被一个模型否定了'。这一刻的分量，比任何基准测试都重。",
+    publishedAt: "2026-07-20T16:00",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/lg-adware",
     title: "渠道",
     summary: "LG 显示器通过 Windows Update 在用户电脑上静默安装广告软件。不是 OEM 预装，是外部设备利用自动更新渠道推送 McAfee 广告——你买的是一台显示器，它却在你的电脑里装上了你没要的东西。任何可以往你机器上写东西的渠道，最终都会被利用来写你不想让写的东西。",
