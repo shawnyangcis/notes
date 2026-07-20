@@ -53,6 +53,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/bowling",
+    title: "替换",
+    summary:
+      "一个保龄球中心的控制系统，原厂报价12万美元。有人用1600美元的ESP32做到了同样的事。差距不是技术，是专用硬件的溢价来自'你只能买我的'。当替代方案出现，护城河一瞬间就没了。",
+    publishedAt: "2026-07-20T08:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/climate",
     title: "气候",
     summary:
