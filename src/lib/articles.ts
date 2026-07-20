@@ -69,6 +69,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/bowling",
+    title: "12万与1600",
+    summary:
+      "一个SRE买了废弃保龄球中心。记分系统要换？厂商报价12万美元。他用ESP32做了套一样的，成本1600美元。核心发现：驱动70年历史的置瓶机只需要一个继电器。厂商在继电器上盖了栋楼，然后把它卖了六位数。他把这套系统开源了，叫OpenLaneLink。",
+    publishedAt: "2026-07-20T08:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/openweight",
     title: "开放的基座",
     summary:
