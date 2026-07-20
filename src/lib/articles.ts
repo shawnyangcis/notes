@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/tokenflation",
+    title: "Tokenflation",
+    summary:
+      "一句「Hi」让 Claude Sonnet 审查了所有文件、改了代码、并 commit 了。14个模型在空前的「Hi」面前各有各的崩溃方式。真正贵的不是 token，是等待时间。模型是机器，不是人。",
+    publishedAt: "2026-07-20T19:30",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/cognitive-surrender",
     title: "认知投降",
     summary:
