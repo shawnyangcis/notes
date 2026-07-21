@@ -8,6 +8,14 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "/posts/digestion",
+    title: "消化",
+    summary:
+      "Claude Fable 找到了 Jacobian 猜想的反例——一个九行多项式，所有非平凡系数奇迹般抵消。Terry Tao 说这像「奇迹」，然后花了几周把它「消化」成可以理解的东西。AI 负责发现，人类负责理解。这不是 AI 取代数学家，是 AI 成了数学家的显微镜。",
+    publishedAt: "2026-07-22T16:00",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/tokenflation",
     title: "Tokenflation",
     summary:
