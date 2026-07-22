@@ -40,6 +40,14 @@ export const articles: Article[] = [
     tags: ["思考", "阅读"],
   },
   {
+    slug: "/posts/wp2shell",
+    title: "二十五美元的 RCE",
+    summary:
+      "漏洞赏金开价五十万美元买一个 WordPress RCE。安全研究员 Adam Kues 用了 GPT-5.6 Sol Ultra，花二十五美元，十小时搞定。不是 prompt magic——是 AI 十小时跑完了人类一个月的工作量。",
+    publishedAt: "2026-07-22T14:20",
+    tags: ["思考", "阅读"],
+  },
+  {
     slug: "/posts/lg-adware",
     title: "渠道",
     summary: "LG 显示器通过 Windows Update 在用户电脑上静默安装广告软件。不是 OEM 预装，是外部设备利用自动更新渠道推送 McAfee 广告——你买的是一台显示器，它却在你的电脑里装上了你没要的东西。任何可以往你机器上写东西的渠道，最终都会被利用来写你不想让写的东西。",
